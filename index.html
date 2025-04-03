@@ -3,15 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Životopis</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Dongle&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
 </head>
 <body>
 
 <!-- Hlavička  -->
-<header>
-    <div class="ja">
-        <img src="images/main.jpg" alt="To jsem já">
-    </div>
+<section>
+    <img class="ja" src="images/main.jpg" alt="To jsem já">
+</section>
+
+<header class="zahlavi">
     <h1>Barbora Němcová</h1>
     <ul>
         <li>LVL: 43 </li>
@@ -24,16 +29,16 @@
 <section class="popis">
     <h2>Identikit</h2>
     <ul>
-        <li>Pohlaví: Žena </li>
-        <li>Výška: Přiměřená </li>
-        <li>Váha: Proměnlivá </li>
-        <li>Oči: Kulaté </li>
-        <li>Nos: Zahnutý </li>
-        <li>Vlasy: Šednoucí </li>
+        <li><strong>Pohlaví:</strong>  Žena </li>
+        <li><strong>Výška:</strong> Přiměřená </li>
+        <li><strong>Váha:</strong> Proměnlivá </li>
+        <li><strong>Oči:</strong> Kulaté </li>
+        <li><strong>Nos:</strong> Zahnutý </li>
+        <li><strong>Vlasy:</strong> Šednoucí </li>
     </ul>
 </section>
 
-<div class="profil"><img src="images/profil.jpg" alt="Profilovka"></div>
+<section><img class="profil" src="images/profil.jpg" alt="Profilovka"></section>
 
 <!-- Škola  -->
 <section class="skola">
@@ -46,7 +51,7 @@ přeci jen dovedli ke státní zkoušce v oboru Živočišná produkce. Titul m�
 </p>
 </section>
 
-<div class="krava"><img src="images/skola.jpg" alt="Na praxi"></div>
+<section><img class="krava" src="images/skola.jpg" alt="Na praxi"></section>
 
 <!-- Práce  -->
 <section class="radio">
@@ -63,10 +68,10 @@ kteří mají projekci pořadu v rámci výuky povinnou.
     </p> 
 </section>
 
-<div class="prace"><img src="images/prace.jpg" alt="Běžný den v práci"></div>
+<section><img class="prace" src="images/prace.jpg" alt="Běžný den v práci"></section>
 
 <!-- Schopnosti  -->
-<section>
+<section  class="skills">
     <h2>Zvláštní schopnosti</h2>
     <p>
 Neustále vybavena mobilem, hodně fotí. Umí to i s foťákem, neb je absolventka Kurzu digitální fotografie na Pražské fotografické škole, 
@@ -75,10 +80,10 @@ a v několika dalších jazycích umí říct, že se jimi nedomluví. Velice ne
     </p>
 </section>
     
-<div class="skills"><img src="images/fotim.jpg" alt="Fotografka"></div>
+<section><img class="fotografka" src="images/duch.jpg" alt="Duch"></section>
 
 <!-- Bonus  -->
-<section>
+<section class="bonus">
     <h2>Bonusový materiál</h2>
     <p>
 K dobrým vlastnostem patří její kladný vztah k dětem, zejména těm vlastním. A zvířátkům, která mohou být i cizí. Umí uvařit, napéct i vyměnit žárovku. Rozhodně je týmový hráč, 
@@ -88,7 +93,7 @@ Relaxuje v kruhu rodinném, nebo při cestování, jak ukazuje přiložená foto
 </section>
 
 <!-- Fotogalerie  -->
-<div class="fotogalerie">
+<section class="fotogalerie">
     <table>
         <tr>
             <th><img src="images/vietnam1.jpg" alt="Vietnam">  </th>
@@ -97,7 +102,7 @@ Relaxuje v kruhu rodinném, nebo při cestování, jak ukazuje přiložená foto
             <th><img src="images/vietnam4.jpg" alt="Vietnam">  </th>
         </tr>
     </table>
-</div>
+</section>
 
 <footer>
     Napsala Barbora Němcová
