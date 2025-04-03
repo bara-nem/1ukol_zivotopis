@@ -1,7 +1,8 @@
 body {background-color: #f9f1f0; margin: 0;}
 .lista {background-color: #25232b;}
-.profil, .krava, .prace, .fotografka {background-color: #deb3ad;}
-.popis, .skola, .radio, .skills, .bonus {background-color: #a0877d;}
+/*.profil, .krava, .prace, .fotografka {background-color: #deb3ad;}*/
+.popis, .prace, .bonus {background-color: #a0877d;}
+.skola, .schopnosti {background-color: #deb3ad;}
 footer {background-color: #25232b;}
 
 ul, p, footer {
@@ -16,6 +17,7 @@ h1{
     color: #25232b;
     text-shadow: 0 3px 10px #363636;
     margin: 0;
+    padding: 0 0 0 25px;
 }
 
 h2{
@@ -23,9 +25,8 @@ h2{
 }
 
 section {
-    width: 800px;
-    margin: 0; 
-    padding: 10px 20px;
+    padding: 20px 40px;
+    overflow: auto;
 }
 
 .zahlavi {
@@ -36,13 +37,49 @@ section {
     padding: 250px 30px;
 }
 
-.profil, .krava, .prace, .fotografka {
-    width: 300px;
-    border-color: #25232b;
+.profil img{
+    float: right;
+    width: 350px;
+    border-color: #949396;
     border-style: solid;
     border-width: 1px;
-    border-radius: 10px;
-    margin: 0;
+    border-radius: 0 15px 15px 15px;
 }
 
-.fotogalerie img {width: 25%;}
+.krava img{
+    float: left;
+    width: 350px;
+    border-color: #949396;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 15px 0 15px 15px;
+}
+
+.espanol img{
+    float: right;
+    width: 350px;
+    border-color: #949396;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 0 15px 15px 15px;
+}
+
+.duch img{
+    float: left;
+    width: 350px;
+    border-color: #949396;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 15px 0 15px 15px;
+}
+
+
+
+.fotogalerie img{
+    width: 250px;
+    border: 2px solid #949396;
+    border-radius: 10px;
+}
+
+
+
