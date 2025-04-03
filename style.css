@@ -1,21 +1,39 @@
-body {background-color: #f9f1f0;}
-header {background-color: #25232b;}
+body {background-color: #f9f1f0; margin: 0;}
+.lista {background-color: #25232b;}
 .profil, .krava, .prace, .fotografka {background-color: #deb3ad;}
 .popis, .skola, .radio, .skills, .bonus {background-color: #a0877d;}
 footer {background-color: #25232b;}
 
 ul, p, footer {
-    font-family: "Playfair Display"; sans-serif;
+    font-family: "Playfair Display", sans-serif;
     line-height: 1.7;
 }
 
+h1{
+    font-family: "Bungee Hairline", sans-serif;
+    font-size: 60px;
+    text-align: left;
+    color: #25232b;
+    text-shadow: 0 3px 10px #363636;
+    margin: 0;
+}
 
-.ja img {
-    background-image: url(images/ja.jpg); 
+h2{
+    font-size: 26px;
+}
+
+section {
+    width: 800px;
+    margin: 0; 
+    padding: 10px 20px;
+}
+
+.zahlavi {
+    background-image: url(images/main1.jpg); 
     background-repeat: no-repeat; 
     background-size: cover; 
-    width: 300px;
-    border-radius: 0%;
+    background-position: center;
+    padding: 250px 30px;
 }
 
 .profil, .krava, .prace, .fotografka {
@@ -24,11 +42,7 @@ ul, p, footer {
     border-style: solid;
     border-width: 1px;
     border-radius: 10px;
+    margin: 0;
 }
 
-section {
-    width: 800px;
-    margin: 5px 5px; 
-    padding: 10px 10px;
-
-}
+.fotogalerie img {width: 25%;}
