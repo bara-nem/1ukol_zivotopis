@@ -1,9 +1,9 @@
-body {background-color: #f9f1f0; margin: 0;}
-.lista {background-color: #25232b;}
+body {background-color: whitesmoke; margin: 0;}
+.lista {background-color: #ada9ad;}
 /*.profil, .krava, .prace, .fotografka {background-color: #deb3ad;}*/
-.popis, .prace, .bonus {background-color: #a0877d;}
-.skola, .schopnosti {background-color: #deb3ad;}
-footer {background-color: #25232b;}
+.popis, .prace, .bonus {background-color: #f1f1f0;}
+.skola, .schopnosti {background-color: #a98ab0;}
+footer {background-color: #383940;}
 
 ul, p, footer {
     font-family: "Playfair Display", sans-serif;
@@ -23,6 +23,8 @@ h1{
 h2{
     font-size: 26px;
 }
+
+header, section, footer {max-width: 800px;}
 
 section {
     padding: 20px 40px;
@@ -73,7 +75,18 @@ section {
     border-radius: 15px 0 15px 15px;
 }
 
+li {
+    display: inline-block;
+    background-color: #474447;
+   }
 
+.linka li{color: #080808;text-decoration: none; padding: 5px 30px;}
+
+
+
+   a:hover {
+    background-color: #a98ab0;
+   }
 
 .fotogalerie img{
     width: 250px;
