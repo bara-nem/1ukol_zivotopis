@@ -1,11 +1,11 @@
 body {background-color: whitesmoke; margin: 0;}
 .lista {background-color: #ada9ad;}
 /*.profil, .krava, .prace, .fotografka {background-color: #deb3ad;}*/
-.popis, .prace, .bonus {background-color: #f1f1f0;}
+.popis, .work, .spesl {background-color: #f1f1f0;}
 .skola, .schopnosti {background-color: #a98ab0;}
 footer {background-color: #383940;}
 
-ul, p, footer {
+li, p, footer {
     font-family: "Playfair Display", sans-serif;
     line-height: 1.7;
 }
@@ -22,12 +22,14 @@ h1{
 
 h2{
     font-size: 26px;
+    margin: 0;
+    padding: 0 0 0 20px;
 }
 
-header, section, footer {max-width: 800px;}
+
 
 section {
-    padding: 20px 40px;
+    padding: 15px 40px;
     overflow: auto;
 }
 
@@ -35,8 +37,7 @@ section {
     background-image: url(images/main1.jpg); 
     background-repeat: no-repeat; 
     background-size: cover; 
-    background-position: center;
-    padding: 250px 30px;
+    padding: 200px 30px;
 }
 
 .profil img{
@@ -75,18 +76,43 @@ section {
     border-radius: 15px 0 15px 15px;
 }
 
-li {
+
+/* horní lišta */
+.lista li {
     display: inline-block;
-    background-color: #474447;
-   }
+    padding: 0px 30px;
+    font-family: "Bungee Hairline", sans-serif;
+    color: #25232b;
+    text-shadow: 0 1px 15px #363636;
+    border: 1px solid #a98ab0;
+}
 
-.linka li{color: #080808;text-decoration: none; padding: 5px 30px;}
+.lista a:hover{
+    color: antiquewhite;
+}
 
+.lista a:focus{
+    color: antiquewhite;
+    border: none;
+    text-decoration: none;
+}
 
+/* odkazy */
 
-   a:hover {
-    background-color: #a98ab0;
-   }
+a {
+    text-decoration: none;
+}
+.work a:hover{
+    color: rgb(221, 131, 12);
+}
+
+.work a:focus{
+    color: rgb(221, 131, 12);
+    border: none;
+    text-decoration: none;
+}
+
+/* fotogalerie */
 
 .fotogalerie img{
     width: 250px;
