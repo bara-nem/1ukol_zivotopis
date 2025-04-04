@@ -1,8 +1,8 @@
 body {background-color: rgb(43, 42, 42); margin: 0;}
 .lista {background-color: #ada9ad;}
 .popis, .work, .spesl {background-color: #f1f1f0;}
-.skola, .schopnosti {background-color: #a98ab0;}
-footer {background-color: #383940;}
+.skola, .schopnosti {background-color: #e9b7c4;}
+footer {background-color: rgb(43, 42, 42);}
 
 li, p, footer {
     font-family: "Playfair Display", sans-serif;
@@ -35,42 +35,43 @@ section {
 
 }
 
-/* HornHorní obrázek */
 
 .zahlavi {
     background-image: url(images/main1.jpg); 
     background-repeat: no-repeat; 
     background-size: cover; 
-    padding: 200px 30px;
+    padding: 150px 30px;
 }
 
 
+
 /* Fotky */
+
+img { width: 300px;
+}
+
+
 .profil img{
     float: right;
     margin: 15px 30px 15px 20px;
-    width: 300px;
     border-radius: 0 15px 15px 15px;
 }
 
 .krava img{
     float: left;
     margin: 15px 20px 15px 30px;
-    width: 300px;
     border-radius: 20px 0 20px 20px;
 }
 
 .espanol img{
     float: right;
     margin: 15px 30px 15px 20px;
-    width: 300px;
     border-radius: 0 15px 15px 15px;
 }
 
 .duch img{
     float: left;
     margin: 15px 20px 15px 30px;
-    width: 300px;
     border-radius: 15px 0 15px 15px;
 }
 
@@ -80,8 +81,9 @@ section {
     display: inline-block;
     padding: 0px 30px;
     font-family: "Bungee Hairline", sans-serif;
-    color: #25232b;
-    text-shadow: 0 1px 15px #363636;
+    color: #03000a;
+    font-weight: 800;
+    text-shadow: 0 1px 15px #b4b3b3;
     border: 1px solid #a98ab0;
 }
 
@@ -101,12 +103,16 @@ section {
 a {
     text-decoration: none;
 }
+
+.work a {color: #a67caf;
+
+}
 .work a:hover{
-    color: rgb(221, 131, 12);
+    color: #4b1faf;
 }
 
 .work a:focus{
-    color: rgb(221, 131, 12);
+    color: #4b1faf;
     border: none;
     text-decoration: none;
 }
@@ -116,10 +122,20 @@ a {
 /* fotogalerie */
 
 .fotogalerie img{
-    width: 250px;
-    border: 2px solid #949396;
-    border-radius: 10px;
+  
+    border: 1px solid #949396;
+    border-radius: 50%;
+    width: 200px; 
+    height: 200px; 
+    object-fit: cover;
 }
 
 
+/* patička */
 
+.paticka{
+    font-size: 18px;
+    color: antiquewhite;
+    text-align: center;
+    padding-top: 20px;
+}
