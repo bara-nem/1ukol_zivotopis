@@ -51,6 +51,7 @@ section {
 .lista{
     padding: 5px 40px;
     width: 70%;
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
 }
