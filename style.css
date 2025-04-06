@@ -4,6 +4,7 @@ body {background-color: rgb(43, 42, 42); margin: 0;}
 .skola, .schopnosti {background-color: #e9b7c4;}
 footer {background-color: rgb(43, 42, 42);}
 
+/* Písmo */
 li, p, footer {
     font-family: "Playfair Display", sans-serif;
     line-height: 1.7;
@@ -14,72 +15,90 @@ h1{
     color: #25232b;
     text-shadow: 0 3px 10px #363636;
     margin: 0;
-    font-size: 60px;
-    padding: 0 0 0 25px;
+    font-size: 50px;
+    padding: 0 0 30px 25px;
 }
-
 
 h2{
     font-family: "Bungee Hairline", sans-serif;
     font-size: 26px;
-    margin: 0;
+    margin: 0 0 20px 0;
     padding: 20px 0;
     text-align: center;
 }
 
-
-
-section {
-    overflow: auto;
-    padding: 30px 40px;
-
-}
+/* Boxy */
 
 
 .zahlavi {
     background-image: url(images/main1.jpg); 
     background-repeat: no-repeat; 
     background-size: cover; 
-    padding: 150px 30px;
+    padding: 150px 40px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section {
+    overflow: auto;
+    padding: 30px 40px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lista{
+    padding: 5px 40px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fotogalerie{
+    text-align: center;
 }
 
 
 
 /* Fotky */
 
-img { width: 300px;
+img { 
+    width: 300px;
+    margin: 20px;
 }
-
 
 .profil img{
     float: right;
-    margin: 15px 30px 15px 20px;
     border-radius: 0 15px 15px 15px;
 }
 
 .krava img{
     float: left;
-    margin: 15px 20px 15px 30px;
     border-radius: 20px 0 20px 20px;
 }
 
 .espanol img{
     float: right;
-    margin: 15px 30px 15px 20px;
     border-radius: 0 15px 15px 15px;
 }
 
 .duch img{
     float: left;
-    margin: 15px 20px 15px 30px;
     border-radius: 15px 0 15px 15px;
 }
 
 
 /* horní lišta */
+
+ul{
+    list-style: none;
+}
+
 .lista li {
     display: inline-block;
-    padding: 0px 30px;
+    margin: 0 10px;
+    padding: 5px 20px;
     font-family: "Bungee Hairline", sans-serif;
     color: #03000a;
     font-weight: 800;
@@ -121,6 +140,16 @@ a {
 
 /* fotogalerie */
 
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    padding: 10px;
+    text-align: center;
+}
+
 .fotogalerie img{
   
     border: 1px solid #949396;
@@ -128,8 +157,12 @@ a {
     width: 200px; 
     height: 200px; 
     object-fit: cover;
+    margin: 0;
 }
 
+.fotogalerie{
+    padding: 10px 15px;
+}
 
 /* patička */
 
@@ -138,4 +171,7 @@ a {
     color: antiquewhite;
     text-align: center;
     padding-top: 20px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
 }
