@@ -126,6 +126,9 @@ ul{
 
 a {
     text-decoration: none;
+}
+
+.fotogalerie a {
     padding: 10px;
 }
 
