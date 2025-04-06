@@ -29,7 +29,9 @@ h2{
 
 /* Boxy */
 
-
+*{
+    box-sizing: border-box;
+}
 .zahlavi {
     background-image: url(images/main1.jpg); 
     background-repeat: no-repeat; 
